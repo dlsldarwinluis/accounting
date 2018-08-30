@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+}
+#navbarContainer{
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 245px;
+    height: 100%;
+    background-color: black;
+}
+#navbar{
+    text-align: left;
+}
+#companylogoContainer{
+    margin: 10% 5% 20% 5%;
+    text-align: center;
+}
+#companylogo{
+    max-width: 150px;
+}
+.navbar-menu{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.navbar-menu a{
+    text-decoration: none;
+}
+.navbar-menu:hover{
+    background-color: #2e2e2e;
+}
+.inlineContent{
+    display: inline;
+}
+.icon-navbar{
+    width: 25px;
+}
+.text-navbar{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12pt;
+    color: white;
+    vertical-align: 5.5px;
+}
+#logoutContainer{
+    position: absolute;
+    width: 235px;
+    left: 0;
+    bottom: 0;
+}
+#guidelinesContainer{
+    margin-left: 300px;
+    margin-right: 100px;
+    margin-top: 5px;
+    text-align: justify;
+}
+#guidelinesContent{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 11pt;
+}
+.guidelines-content{
+    background-color: #fffbfb;
+    border-radius: 3px;
+    padding: 25px;
+}
+.guidelines-procedure li{
+    margin-left: 45px;
+}
+#guidelinesOne{
+    margin-top: 65px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#guidelinesTwo{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#accountContainer{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: white;
+    width: 100%;
+    text-align: right;
+    box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#accountContent{
+    padding: 1px;
+    padding-right: 10px;
+}
+.inline-user{
+    display: inline;
+}
+.user-text{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 9pt;
+    vertical-align: 10px;
+}
+.user-text:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.user-hypen{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    vertical-align: 10px;
+}
+#user-icon{
+    width: 30px;
+}
+#user-icon:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+#payrollviewContainer{
+    margin-left: 460px;
+    margin-top: 70px;
+    background-color: white;
+    width:650px;
+    box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+#payrollviewContent{
+    padding: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16pt;
+}
+.desc-input{
+    font-weight: bold;
+}
+.input-show{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16pt;
+    padding: 2px;
+    border-radius: 3px;
+    border: 1px solid #2e2e2e;
+    margin: 1%;
+}
+#styleForm{
+    background-color: #2e2e2e;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#textForm{
+    font-weight: bold;
+    font-size: 22pt;
+    color: white;
+}
+#noteForm{
+    font-size: 10pt;
+    color: rgb(213, 194, 194);
+}
+#tablepayrollContainer{
+    margin-left: 260px;
+    margin-top: 100px;
+    margin-right: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12pt;
+}
+#tablepayrollContainer>#tablepayroll{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 0;
+}
+#tablepayrollContainer>#tablepayroll>thead>tr>th{
+    background-color: #2e2e2e75;
+}
+#tablepayrollContainer>#tablepayroll>thead>tr>th, #tablepayrollContainer>#tablepayroll>tbody>tr>td{
+    border: 1px solid black;
+}
